@@ -1,0 +1,16 @@
+{
+  "TestCase_id":"TC_01",
+  "Title":"Verify that user should be able to log in with valid credentials and is redirected to the correct dashboard page",
+  "Steps":
+  {
+    "1":"Open the application",
+    "2":"Navigate to the login page",
+    "3":"Enter valid credentials",
+    "4":"Enter a valid username into the Username field",
+    "5":"Enter a valid password into the Password field",
+    "6":"Click the Login button",
+    "7":"Verify that the URL changes to the dashboard page",
+    "8":"Check if the user's name or profile picture is displayed on the dashboard, confirming that the correct user account is logged in"
+  },
+  "Expected result":"User has been successfully logged into their account"
+}
