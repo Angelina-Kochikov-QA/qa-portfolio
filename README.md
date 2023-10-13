@@ -1,0 +1,1 @@
+Welcome to my QA Portfolio repository! My name is Angelina Kochikov and I'm a Software QA Engineer. This repository showcases my skills and experience in test documentation. 
