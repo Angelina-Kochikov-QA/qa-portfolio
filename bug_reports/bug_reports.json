@@ -1,0 +1,18 @@
+{
+  "Bug_id":"1",
+  "Priority":"Hight",
+  "Summary":"User unable to mark tasks as completed on the Order overview page",
+  "Description":"When attempting to mark a task as completed in on the Order overview page, the task remains in the active state and does not get updated to the completed state",
+  "Steps to reproduce":
+  {
+    "1":"Open the application",
+    "2":"Log in to your account",
+    "3":"Navigate to the Tasks section",
+    "4":"Select an active task",
+    "5":"Tap on the checkbox or button to mark the task as completed",
+    "6":"Verify if the task status updates to completed"
+  },
+  "Expected result":"The selected task should be marked as completed and moved to the completed tasks list. The task's status should change from active to completed",
+  "Actual result":"The task remains in the active state even after attempting to mark it as completed. The status does not change, and the task stays in the active tasks list"
+}
+
