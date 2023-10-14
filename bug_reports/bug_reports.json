@@ -1,0 +1,72 @@
+{
+  "Bug_id":"1",
+  "Priority":"High",
+  "Summary":"User unable to mark tasks as completed on the Order overview page",
+  "Description":"When attempting to mark a task as completed in on the Order overview page, the task remains in the active state and does not get updated to the completed state",
+  "Steps to reproduce":
+  {
+    "1":"Open the application",
+    "2":"Log in to your account",
+    "3":"Navigate to the Tasks section",
+    "4":"Select an active task",
+    "5":"Tap on the checkbox or button to mark the task as completed",
+    "6":"Verify if the task status updates to completed"
+  },
+  "Expected result":"The selected task should be marked as completed and moved to the completed tasks list. The task's status should change from active to completed",
+  "Actual result":"The task remains in the active state even after attempting to mark it as completed. The status does not change, and the task stays in the active tasks list"
+},
+
+{
+  "Bug_id":"2",
+  "Priority":"High",
+  "Summary":"400 error is thrown when user attempts to attach supporting documents in the order confirmation dialog",
+  "Description":"When attempting to attach supporting documents in the order confirmation dialog, the attachments fail to load or display  400 error message",
+  "Steps to reproduce":
+  {
+    "1":"Open the application",
+    "2":"Log in to your account",
+    "3":"Select a product from the product menu and place an order",
+    "4":"Select an active task",
+    "5":"In the order confirmation dialog click the “Attach Supporting Documents” button and attach a few files",
+    "6":"Click the “Place Order” button and verify that 400 error is thrown"
+  },
+  "Expected result":"The supporting documents should be successfully attach without any errors",
+  "Actual result":"A 400 error message is displayed when user attempts to attach files"
+},
+
+{
+  "Bug_id":"3",
+  "Priority":"High",
+  "Summary":"Checkout button is unresponsive during the payment process on the final checkout page",
+  "Description":"When attempting to complete a purchase on the final checkout page, after entering all necessary payment information and clicking the Place Order button on the final checkout page, the button becomes unresponsive. Users are unable to proceed with the purchase, causing frustration and preventing successful transactions",
+  "Steps to reproduce":
+  {
+    "1":"Open the application",
+    "2":"Log in to your account",
+    "3":"From the Home page add items to the cart and proceed to checkout",
+    "4":"Fill in shipping information and payment details",
+    "5":"Reach the final checkout page",
+    "6":"Click the Place Order button"
+  },
+  "Expected result":"Upon clicking the Place Order button, the order should be processed, the payment should be confirmed, and the user should receive an order confirmation. The page should then redirect to a confirmation page or display a success message",
+  "Actual result":"After clicking the Place Order button, it becomes unresponsive. No loading indicator appears, and the order is not processed. Users are stuck on the final checkout page without any feedback or confirmation"
+},
+
+{
+  "Bug_id":"4",
+  "Priority":"Medium",
+  "Summary":"Inaccurate task completion percentages displayed on the Project coordination page",
+  "Description":"When viewing the task completion percentages on the Project coordination page, the displayed percentages do not match the actual completion status of the tasks. The discrepancies are causing confusion among team members and project managers, making it difficult to assess the project's progress accurately",
+  "Steps to reproduce":
+  {
+    "1":"Open the application",
+    "2":"Log in to your account",
+    "3":"Navigate to the Project coordination page",
+    "4":"Observe the completion percentages displayed for the tasks within a project",
+    "5":"Verify that displayed percentages do not match the actual completion status of the tasks"
+  },
+  "Expected result":"The task completion percentages displayed on the Project coordination page should accurately represent the completion status of the tasks within the project. Users should be able to rely on these percentages for project tracking and decision-making",
+  "Actual result":"The displayed completion percentages for tasks on the Project coordination page do not align with the actual completion status of the tasks. Tasks marked as completed show lower percentages than expected, while some in-progress tasks show higher percentages than they should"
+}
+
+
